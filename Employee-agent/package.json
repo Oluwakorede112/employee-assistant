@@ -1,0 +1,26 @@
+{
+  "name": "asknova",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ASKNOVA_TEST_UI=1 mastra dev",
+    "build": "mastra build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@chat-adapter/slack": "latest",
+    "@mastra/core": "latest",
+    "@mastra/libsql": "^1.29.0",
+    "@mastra/mcp": "latest",
+    "@mastra/memory": "^1.41.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "mastra": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

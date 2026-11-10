@@ -1,0 +1,11 @@
+node_modules/
+.mastra/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+
+*.db
+*.db-*
+src/mastra/public/*.db*
